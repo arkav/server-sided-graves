@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.arkav.ssgraves.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinLivingEntity",
+    "MixinSkullBlockEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

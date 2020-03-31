@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "serverside-graves",
+  "version": "${version}",
+
+  "name": "Server Sided Graves",
+  "description": "All that stuff goes in a thing!",
+  "authors": [
+    "Arkav"
+  ],
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.arkav.ssgraves.ServerSidedGravesMod"
+    ]
+  },
+  "mixins": [
+    "serverside-graves.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
